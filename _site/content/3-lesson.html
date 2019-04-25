@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>Content | workshop-template-b</title>
+<meta name="description" content="Create a workshop website quick and easy!">
+<meta name="keywords" content="workshops, websites, gh-pages, jekyll">
+<meta name="author" content="evan will">
+<link rel="shortcut icon" type="image/x-icon" href="http://localhost:4000/workshop-template-b/favicon.ico">
+<!-- Open Graph meta -->
+<meta property="og:title" content="Content | workshop-template-b" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="Create a workshop website quick and easy!" />
+<meta property="og:image" content="http://localhost:4000/workshop-template-b/images/uidaho-workshop.jpg" />
+<meta property="og:site_name" content="workshop-template-b" />
+<meta property="og:url" content="http://localhost:4000/workshop-template-b/content/3-lesson.html" />
+<meta property="og:locale" content="en_US" />
+<!-- schema.org JSON-LD -->
+<script type="application/ld+json">{ "@context":"http://schema.org", "@type":"WebPage", "headline":"Content | workshop-template-b", "author": { "@type":"Person", "name":"evan will"}, "description":"Create a workshop website quick and easy!", "image": "http://localhost:4000/workshop-template-b/images/uidaho-workshop.jpg", "url":"http://localhost:4000/workshop-template-b/content/3-lesson.html" }</script>
+
+<link rel="stylesheet" href="http://localhost:4000/workshop-template-b/assets/css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="http://localhost:4000/workshop-template-b/assets/fontawesome/css/all.min.css" >
+<link rel="stylesheet" href="http://localhost:4000/workshop-template-b/assets/css/custom.css">
+
+<!-- Google Analytics -->
+
+
+  </head>
+
+  <body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light pb-lg-0 border-bottom">
+    <div class="container">
+        <a class="navbar-brand" href="http://localhost:4000/workshop-template-b/"><span class="fas fa-code mr-2"></span> workshop-template-b</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+            <ul class="navbar-nav nav-tabs justify-content-end">
+            
+                <li class="nav-item">
+                    <a class="nav-link p-3" href="http://localhost:4000/workshop-template-b/content/0-prep.html">Prep</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link p-3" href="http://localhost:4000/workshop-template-b/content/1-intro.html">Intro</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link p-3" href="http://localhost:4000/workshop-template-b/content/2-lesson.html">Start</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link active p-3" href="http://localhost:4000/workshop-template-b/content/3-lesson.html">Content</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link p-3" href="http://localhost:4000/workshop-template-b/content/4-resources.html">Resources</a>
+                </li>
+            
+            </ul>  
+        </div>
+    </div>
+</nav>
+    </header>
+
+    <main role="main" aria-label="Content">
+      <div class="container my-4">
+      <h1 id="create-lesson-content">Create Lesson Content</h1>
+
+<p>Edit the lesson Markdown files to create content pages.</p>
+
+<p><a href="https://daringfireball.net/projects/markdown/">Markdown</a> is a standard to <a href="https://evanwill.github.io/_drafts/notes/writing-markdown.html">simplify writing</a> content for the web. 
+<a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/">GitHub markdown flavor</a> can be used any where on GitHub and in Jekyll.
+The basics are intuitive, you can learn in about a minute!
+See <a href="https://evanwill.github.io/_drafts/notes/markdown-minute.html">Markdown in a Minute</a> to get started.</p>
+
+<p>When creating content pages:</p>
+
+<ul>
+  <li>create/edit content pages in the <code class="highlighter-rouge">content</code> directory.</li>
+  <li>to include a page in the nav, add <code class="highlighter-rouge">nav: true</code> to the file’s yml front matter.</li>
+  <li>the <code class="highlighter-rouge">title:</code> value will appear in the nav, sorted in the order of filenames. For simplicity use leading numbers in the lesson page filenames to create correct order.</li>
+  <li>the default layout does not add <code class="highlighter-rouge">title</code> to the page, so that it can be a short for the nav. So add a title in the Markdown content.</li>
+</ul>
+
+<h2 id="components-includes">Components Includes</h2>
+
+<p><code class="highlighter-rouge">workshop-template-b</code> contains a series of <a href="https://jekyllrb.com/docs/includes/">Liquid “includes”</a> to add basic <a href="https://getbootstrap.com/docs/4.1/components/">Bootstrap components</a> to your Markdown content.
+Examples below demonstrate the includes.</p>
+
+<hr />
+
+<h4 id="figures">Figures</h4>
+
+<p><code class="highlighter-rouge">{% include figure.html img="uidaho-workshop.jpg" alt="workshop scene" caption="Library workshops!" width="75%" %}</code></p>
+
+<figure class="figure text-center p-3">
+  <img src="http://localhost:4000/workshop-template-b/images/uidaho-workshop.jpg" alt="workshop scene" style="width:75%;" class="figure-img img-fluid rounded" />
+  <figcaption class="figure-caption">Library workshops!</figcaption>
+</figure>
+
+<hr />
+
+<h4 id="alerts">Alerts</h4>
+
+<p><code class="highlighter-rouge">{% include alert.md text="This is a Bootstrap [Alert](https://getbootstrap.com/docs/4.1/components/alerts/)" align="center" color="success" %}</code></p>
+
+<div class="alert alert-success text-center" role="alert">
+  <p>This is a <a href="https://getbootstrap.com/docs/4.1/components/alerts/">Bootstrap Alert</a></p>
+</div>
+
+<hr />
+
+<h4 id="link-buttons">Link Buttons</h4>
+
+<p><code class="highlighter-rouge">{% include button.md text="Bootstrap Docs" link="https://getbootstrap.com/docs/4.1/components/buttons/" color="info" %}</code></p>
+
+<div class="text-center">
+<a class="btn btn-info" href="https://getbootstrap.com/docs/4.1/components/buttons/" target="_blank">Bootstrap Docs</a>
+</div>
+
+<hr />
+
+<h4 id="cards">Cards</h4>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% capture text %}
+1. Can add more complex text using markdown.
+2. Use a Liquid capture to create the text.
+3. It magically becomes a [Bootstrap Card](https://getbootstrap.com/docs/4.1/components/card/).
+{% endcapture %}
+{% include card.md text=text header="Example Card" title="Title example" img="uidaho-workshop.jpg" %}
+</code></pre></div></div>
+
+<div class="card mb-3">
+<img class="card-img-top" src="http://localhost:4000/workshop-template-b/images/uidaho-workshop.jpg" alt="Card image" />
+<h5 class="card-header">Example Card</h5>
+<div class="card-body">
+<h5 class="card-title">Title example</h5>
+<div class="card-text">
+
+      <ol>
+        <li>Can add more complex text using markdown.</li>
+        <li>Use a Liquid capture to create the text.</li>
+        <li>It magically becomes a <a href="https://getbootstrap.com/docs/4.1/components/card/">Bootstrap Card</a>.</li>
+      </ol>
+
+    </div>
+</div>
+</div>
+
+<hr />
+
+<h4 id="modal">Modal</h4>
+
+<p><code class="highlighter-rouge">{% include modal.md button="Try Me" color="success" title="Example Modal" text="This is a modal, with little text." %}</code></p>
+
+<!-- Button trigger modal -->
+<div class="text-center">
+<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+Try Me
+</button>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel">Example Modal</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+        <p>This is a modal, with little text.</p>
+      </div>
+</div>
+</div>
+</div>
+
+      </div>
+    </main>
+
+    <footer class="site-footer bg-light">
+  <div class="container">
+    <nav>
+      <ul class="nav justify-content-end">
+        
+        <li class="nav-item"><a class="nav-link" href="http://localhost:4000/workshop-template-b/content/0-prep.html">Prep</a></li>
+        
+        <li class="nav-item"><a class="nav-link" href="http://localhost:4000/workshop-template-b/content/1-intro.html">Intro</a></li>
+        
+        <li class="nav-item"><a class="nav-link" href="http://localhost:4000/workshop-template-b/content/2-lesson.html">Start</a></li>
+        
+        <li class="nav-item"><a class="nav-link active" href="http://localhost:4000/workshop-template-b/content/3-lesson.html">Content</a></li>
+        
+        <li class="nav-item"><a class="nav-link" href="http://localhost:4000/workshop-template-b/content/4-resources.html">Resources</a></li>
+        
+      </ul>
+    </nav>
+    <div class="row align-items-center pb-3">
+        <div class="col-md">
+          <a class="h5" href="http://localhost:4000/workshop-template-b/">workshop-template-b</a>
+          <br>
+          <span class="pl-3"><a href="https://creativecommons.org/licenses/by-sa/4.0/">cc-by-sa</a> 2019 <a href="https://github.com/evanwill">evan will</a></span>
+        </div>
+        <div class="col-md">
+          
+          <script>
+            function site_search() {
+              var query = document.getElementById("site-search").value;
+              window.open("http://localhost:4000/workshop-template-b/search/index.html?q=" + encodeURIComponent(query), "_self" );
+            }
+          </script>
+          <form class="form-inline my-2 my-lg-0 float-right" role="search" id="search" onsubmit="site_search(); return false;">
+            <div class="input-group">
+              <input id="site-search" class="form-control" type="text" placeholder="Search" aria-label="Search box">
+              <div class="input-group-append">
+                <button class="btn btn-secondary" type="submit"><span class="fas fa-search"></span><span class="sr-only">submit search</span></button>
+              </div>
+            </div>
+          </form>
+          
+        </div>
+    </div>
+  </div>
+</footer>
+
+    <!-- JS for Bootstrap: jQuery first, then Bootstrap JS bundle -->
+<script src="/workshop-template-b/assets/js/jquery-3.3.1.min.js"></script>
+<script src="/workshop-template-b/assets/js/bootstrap.bundle.min.js"></script>
+<!-- load other optional js -->
+
+
+  </body>
+
+</html>
