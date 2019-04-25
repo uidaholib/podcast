@@ -3,23 +3,22 @@ title: Home
 layout: default
 ---
 
-# Bootstrap Workshop Template!
+{% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="" width="100%" %}
 
-{% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Library workshop" width="75%" %}
+Welcome to the University of Idaho Library's **Podcasting Workshop**!  
 
-A minimal Jekyll theme with Bootstrap for creating workshop websites.
+Here, you'll find all the information you'll need to create a simple podcast (as well as some tips for taking that simple podcast to [the next level](LINK TO PAGE)).
 
-*Add your workshop abstract here!*
-
-Write a workshop abstract here.
-
-Learn how to create a super quick easy website for a workshop by writing a few markdown files! 
-Host it for free on GitHub with gh-pages, and share!
-Fun!
-
-*See also:* [workshop-template](https://evanwill.github.io/workshop-template/), original minimal version.
+<u><strong>A quick overview of what you'll find here:</strong></u>  
+- Links to the (free!) software we recommend downloading
+- How to capture and store the audio you'll be using
+- How to edit the audio (i.e. trimming, cutting, and moving it around)
+- Mixing the main audio with other audio (like voice-overs, music, etc.)
+- How to bounce the finished project down to a simple, shareable audio file
 
 {% include toc.html %}
+
+If you complete this workshop and still have questions, please contact [Corey Oglesby](mailto:coglesby@uidaho.edu).
 
 Hosted by [University of Idaho Library](http://www.lib.uidaho.edu/), {{ site.pub_year }}.
 
