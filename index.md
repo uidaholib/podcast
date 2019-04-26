@@ -5,7 +5,7 @@ layout: default
 
 {% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="" width="100%" %}
 
-Welcome to the University of Idaho Library's **Podcasting Workshop!**  
+Welcome to the University of Idaho Library's ***Podcasting Workshop!***  
 
 Here, you'll find all the information you'll need to create a simple podcast (as well as some tips for taking that simple podcast to [the next level](LINK TO PAGE)).
 
