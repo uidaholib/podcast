@@ -38,7 +38,7 @@ First thing's first: we need to download the audio editing software that we'll b
 There are a few reasons this workshop will use Audacity as its primary example of an audio editor: it's *free*, it's *usable on all operating systems*, and it has [fantastic documentation](https://manual.audacityteam.org/){:target='_blank'} (if at some point you need more help with Audacity beyond the examples we'll be providing throughout this workshop).  
 
 {% capture text %}
-<u><strong>Windows users</strong>, you'll want to download these Audacity plug-ins:</u>
+**Note:** You'll want to download these Audacity plug-ins:</u>
 - [Lame v3.99.3](https://manual.audacityteam.org/man/installing_and_updating_audacity_on_windows.html#winlame){:target='_blank'}—a third-party encoder that allows you to easily export your finished project as an MP3 file.
 - [FFmpeg Import/Export Library](https://manual.audacityteam.org/man/installing_and_updating_audacity_on_windows.html#winff){:target='_blank'}—allows Audacity to import and export a much larger range of audio formats including M4A (AAC), AC3, AMR (narrow band) and WMA (as well as audio from most video files).
 {% endcapture %}
