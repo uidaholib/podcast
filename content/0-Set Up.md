@@ -3,13 +3,13 @@ title: Set Up
 nav: true
 --- 
 
-# Getting Set Up
+# <i style='color:black;' class='fas'>&#xf0ad;</i> Getting Set Up
 
-### **Software**: Choosing an audio editor
+{% capture text %}
+#### Choosing an audio editor
 
 First thing's first: we need to download the audio editing software that we'll be using to assemble the podcast. Luckily, there are a lot of options. Here are a just few of the most commonly used applications:
 
-{% capture text %}
 ##### Free
 
 - [Audacity](https://github.com){:target='_blank'}—Audacity is an easy-to-use, multi-track audio editor and recorder for **Windows, Mac OS X, GNU/Linux** and other operating systems. Developed by a group of volunteers as open source.
@@ -38,14 +38,13 @@ There are a few reasons this workshop will use Audacity as its primary example o
 - [FFmpeg Import/Export Library](https://manual.audacityteam.org/man/installing_and_updating_audacity_on_windows.html#winff){:target='_blank'}—allows Audacity to import and export a much larger range of audio formats including M4A (AAC), AC3, AMR (narrow band) and WMA (as well as audio from most video files).
 {% endcapture %}
 {% include alert.md text=text %}
-
 ---
+{% capture text %}
 
-### **Hardware**: How you'll actually record the audio
+#### How you'll actually record the audio
 
 In truth, there are too many different audio recording devices and methods out there for us to get *too* into them, so we'll break it all down into two broad categories: **field** recording and **direct-to-computer** recording.
 
-{% capture text %}
 ##### Field recording
 
 - Simple, handheld devices like the [TASCAM DR-100mkII](https://www.amazon.com/dp/B006JVNTXO/?tag=1010128-20){:target='_blank'}, the [Zoom H2n](https://www.amazon.com/dp/B005CQ2ZY6/?tag=1010128-20){:target='_blank'}, and even... 
