@@ -5,8 +5,20 @@ nav: true
 
 # <i style='color:black;' class='fas'>&#xf130;</i> Recording Audio
 
+**What you'll find on this page:**
+- <a href="#capturing-audio">Capturing audio</a>
+- <a href="#tips">Tips for recording audio</a>
+- <a href="#getting-audio-into-audacity">Getting audio into Audacity</a>
+- <a href="#prerecorded">Pre-recorded audio</a>
+- <a href="#direct">Recording new audio directly into Audacity</a>
+- <a href="#music">Background music</a>
+- <a href="#getting-music-into-audacity">Getting music into Audacity</a>
+
+<a id="capturing-audio"></a>
 {% capture text %}
-Again, it's beyond the scope of this simple workshop to delve too far into the recording arts, but here are a few important tips for capturing good audio (no matter how you're doing it)—
+<a id="tips"></a>
+Again, it's beyond the scope of this simple workshop to delve too far into the recording arts, but here are a few important tips for capturing good audio (no matter how you're doing it)—  
+
 - **Record a few moments of silence before you start talking**—(We'll explain why in the following section)
 - **Stay near the microphone, and keep your proximity to it consistent**—If you're too far away from the microphone, you'll sound quieter, and vice versa. And if you're moving around too much, your audio will likely have subtle-to-significant fluctuations in volume. That said...
 - **Keep an eye on your input levels**—Whether you're using a field recorder or recording directly into a digital workstation, you'll want to find and get familiar with the *volume unit (VU) meter*. Mostly, you'll want to make sure your signal isn't going into the red (which means your input level is too high/loud, and the audio will likely sound distorted), but you'll also want to make sure your signal isn't too *low* (which of course means your signal is too quiet).
@@ -15,17 +27,18 @@ Again, it's beyond the scope of this simple workshop to delve too far into the r
 
 But the best advice we can give is to *mess around* for a bit at first—experiment, try some practice recordings before your interview/voice-over, and see what you learn or observe. Every recording setup and environment is going to be different, so you'll need to get comfortable with *your* equipment and how it responds to the acoustic environment in which you'll be using it. 
 
+<a id="getting-audio-into-audacity"></a>
 #### Getting the audio into Audacity
-
+<a id="prerecorded"></a>
 ##### Pre-recorded audio
 
 If you've already got your audio recorded (i.e. you used a field recorder separately), you'll want to import them into your audio editor to start moving the pieces around and building your podcast. With Audacity, there are a few ways to do this: **1.)** from the main toolbar, select ``File > Import > Audio...`` (or Mac user shortcut: ``Command + Shift + I``), or **2.)** drag and drop the audio file from your computer folder directly into Audacity.
 
 {% capture text %}
-**Windows users:** If you missed the [the highly recommended plug-ins](https://manual.audacityteam.org/){:target='_blank'} we mentioned in the "Set Up" section of this workshop, you'll want to download and install those before doing the above.
+**Remember!** If you missed the [the highly recommended plug-ins](https://manual.audacityteam.org/){:target='_blank'} we mentioned in the "Set Up" section of this workshop, you'll want to download and install those before doing the above.
 {% endcapture %}
 {% include alert.md text=text %}
-
+<a id="direct"></a>
 ##### Recording new audio directly into Audacity
 
 If you're using a microphone connected to your computer, you'll want to first make sure (after plugging the microphone in) to specify within Audacity which input source you'll be using. You should be able to find your microphone in the following dropdown menu:
@@ -35,6 +48,7 @@ Once you've selected your mic, it's as easy as hitting the record button:
 {% endcapture %}
 {% include card.md text=text header="Capturing Audio" %}
 
+<a id="music"></a>
 {% capture text %}
 What's a podcast without a little background music? If you're looking to add a musical element to your podcast, be sure you own **the rights** to the music you use—or that you're using *royalty-free* content from sources such as:
 - [YouTube's Royalty-free Music Library](https://www.youtube.com/audiolibrary/music?ar=2){:target='_blank'}—an enormous online database of **free**, downloadable music and sound effects.
@@ -46,6 +60,7 @@ What's a podcast without a little background music? If you're looking to add a m
 {% endcapture %}
 {% include alert.md text=text %}
 
+<a id="getting-music-into-audacity"></a>
 #### Getting the music into Audacity
 
 You probably guessed it: this is the same process as importing your original audio. That said, you'll want to create a new track for the music to live on all on its own so you can move it around in the mix when editing (which we're about to talk about in <a href="{{ '/content/2-Editing.html' | relative_url }}">the next section</a>.

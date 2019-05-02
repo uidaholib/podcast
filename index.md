@@ -20,7 +20,7 @@ Here, you'll find all the information you'll need to create a simple podcast (as
 
 If you complete this workshop and still have questions, please contact [Corey Oglesby](mailto:coglesby@uidaho.edu).
 
-Hosted by [University of Idaho Library](http://www.lib.uidaho.edu/), {{ site.pub_year }}.
+Hosted by [University of Idaho Library](http://www.lib.uidaho.edu/){:target='_blank'}, {{ site.pub_year }}.
 
 ------
 

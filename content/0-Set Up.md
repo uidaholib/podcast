@@ -5,6 +5,11 @@ nav: true
 
 # <i style='color:black;' class='fas'>&#xf0ad;</i> Getting Set Up
 
+**What you'll find on this page:**
+- <a href="#software">Audio editing software</a>
+- <a href="#hardware">Audio recording hardware</a>
+
+<a id="software"></a>
 {% capture text %}
 #### Choosing an audio editor
 
@@ -15,7 +20,7 @@ First thing's first: we need to download the audio editing software that we'll b
 - [Audacity](https://github.com){:target='_blank'}—Audacity is an easy-to-use, multi-track audio editor and recorder for **Windows, Mac OS X, GNU/Linux** and other operating systems. Developed by a group of volunteers as open source.
 
 {% capture text %}
-**NOTE:** Windows users, you'll want to download a few extra plug-ins to use Audacity to its fullest potential—be sure to check out the links at the bottom of this section.
+**NOTE:** You'll want to download a few extra plug-ins to use Audacity to its fullest potential—be sure to check out the links at the bottom of this section.
 {% endcapture %}
 {% include alert.md text=text %}
 
@@ -39,6 +44,7 @@ There are a few reasons this workshop will use Audacity as its primary example o
 {% endcapture %}
 {% include alert.md text=text %}
 ---
+<a id="hardware"></a>
 {% capture text %}
 
 #### How you'll actually record the audio
