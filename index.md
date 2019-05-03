@@ -5,9 +5,9 @@ layout: default
 
 {% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="" width="100%" %}
 
-Welcome to the University of Idaho Library's ***Podcasting Workshop!***  
+## Welcome to the University of Idaho Library's ***Podcasting Workshop!***  
 
-Here, you'll find all the information you'll need to create a simple podcast (as well as some tips for taking that simple podcast to [the next level](LINK TO PAGE)).
+Here, you'll find all the information you'll need to create a simple podcast (as well as a few <a href="{{ '/content/4-resources.html' | relative_url }}">additional resources</a> to help you along).
 
 <u><strong>A quick overview of what you'll find here:</strong></u>  
 - Links to the (free!) software we recommend downloading
@@ -18,7 +18,7 @@ Here, you'll find all the information you'll need to create a simple podcast (as
 
 {% include toc.html %}
 
-If you complete this workshop and still have questions, please contact [Corey Oglesby](mailto:coglesby@uidaho.edu).
+If you complete this workshop and still have questions, please contact UI Library's Digital Project Manager, [Corey Oglesby](mailto:coglesby@uidaho.edu).
 
 Hosted by [University of Idaho Library](http://www.lib.uidaho.edu/){:target='_blank'}, {{ site.pub_year }}.
 

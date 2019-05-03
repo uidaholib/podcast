@@ -2,7 +2,7 @@
 header {
     border-top: solid 4px $top-border;
     .nav-tabs {
-        border-bottom: none;
+        border: none;
     }
 }
 footer {
@@ -17,6 +17,10 @@ footer {
             color: rgba(0,0,0,.7);
         }
     }
+}
+
+.btn {
+    border-radius: 0;
 }
 
 /* change default colors */

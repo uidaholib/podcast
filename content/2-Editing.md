@@ -8,18 +8,20 @@ nav: true
 Now we'll walk you through the process of editing—cleaning up your audio, arranging it, and mixing it all together (i.e. fading talking bits in and out around music, breaks, etc.). 
 
 **What you'll find on this page:**
-- <a href="#capturing-audio">Capturing audio</a>
-- <a href="#tips">Tips for recording audio</a>
-- <a href="#getting-audio-into-audacity">Getting audio into Audacity</a>
-- <a href="#prerecorded">Pre-recorded audio</a>
-- <a href="#direct">Recording new audio directly into Audacity</a>
-- <a href="#music">Background music</a>
-- <a href="#getting-music-into-audacity">Getting music into Audacity</a>
+- <a href="#cleaning-audio"><strong>Cleaning up your audio</strong></a>
+- <a href="#room-noise">Getting rid of unwanted room noise</a>
+- <a href="#unwanted-sounds">Getting rid of unwanted speech and other sound</a>
+- <a href="#arranging"><strong>Arranging your audio</strong></a>
+- <a href="#splitting">Splitting audio clips</a>
+- <a href="#moving">Moving the audio around</a>
+- <a href="#mixing">Mixing tracks</a>
+- <a href="#exporting"><strong>Exporting your finished project</strong></a>
 
+<a id="cleaning-audio">
 {% capture text %}
 
 If you haven't yet, go ahead and import your main audio (i.e. your voice recording, interview, etc.) into Audacity using the steps outlined in the <a href="{{ '/content/1-Recording.html' | relative_url }}"> previous section on recording audio</a>.
-
+<a id="room-noise">
 ##### 1. Getting rid of unwanted room noise
 
 When you originally recorded your audio, remember how we recommended that you capture a little bit of "silence" before you began speaking into the microphone? What that did was capture the ambient noise of the room/environment—the hum of the air conditioning, a busy street outside, a window fan, etc.—so that we can get a "noise profile" and get rid of it. Here's how:
@@ -37,6 +39,7 @@ When you originally recorded your audio, remember how we recommended that you ca
 **d.)** When you find a setting you like, click "Ok" to officially apply the effect.
 {% include figure.html img="editing-2.png" alt="intro image here" caption="" width="100%" %}
 ---
+<a id="unwanted-sounds">
 ##### 2. Getting rid of unwanted speech and other sound
 
 Everyone, um, when they talk, like, sometimes we use a lot of, sort of, filler words when we're thinking of what to say. Now is your chance to easily cut-out any unwanted speech patterns and other noises (like a bump in the mic, or long periods of silence during a monologue or interview, etc.). Here's how we do it:
@@ -56,9 +59,9 @@ There may only be the above 2 steps to this process, but it's more involved than
 {% include card.md text=text header="Cleaning up your audio" %}
 
 ---
-
+<a id="arranging">
 {% capture text %}
-
+<a id="splitting">
 ##### Splitting audio clips
 
 Now that you have nice, clean, noise-free audio, we can start laying out the architecture of your podcast. You may, at some point, want to **split your audio clip into segments** that you can move around (i.e. for music breaks, or commentary, etc.). Here's how to do that:
@@ -67,13 +70,13 @@ Now that you have nice, clean, noise-free audio, we can start laying out the arc
 **b.)** In the top toolbar, go to ``Edit > Clip Boundaries > Split`` to make the cut.  
 
 Now you have two separate clips. 
-
+<a id="moving">
 ##### Moving the audio around
 
 Moving your different audio clips around is simple: from the top tool bar, select the ``Time Shift`` tool (looks like &#8596;), and drag the clip into the desired position.  
 
 As we mentioned earlier, you'll want your main audio segments and background music/supplementary audio to be on separate tracks so you can overlap them and mix their volumes together (which we're going to talk about next).
-
+<a id="mixing">
 ##### Mixing the audio tracks together
 
 If you now have a few separate segments of speech and, on another track, some segments of music, your Audacity window should look something like this:
@@ -103,7 +106,7 @@ Your browser does not support the audio element.
 
 {% endcapture %}
 {% include card.md text=text header="Arranging your audio" %}
-
+<a id="exporting">
 {% capture text %}
 
 Once you're all done assembling your podcast in Audacity, it's finally time to combine it all together into a single, playable audio file. 

@@ -6,12 +6,12 @@ nav: true
 # <i style='color:black;' class='fas'>&#xf130;</i> Recording Audio
 
 **What you'll find on this page:**
-- <a href="#capturing-audio">Capturing audio</a>
+- <a href="#capturing-audio"><strong>Capturing audio</strong></a>
 - <a href="#tips">Tips for recording audio</a>
 - <a href="#getting-audio-into-audacity">Getting audio into Audacity</a>
 - <a href="#prerecorded">Pre-recorded audio</a>
 - <a href="#direct">Recording new audio directly into Audacity</a>
-- <a href="#music">Background music</a>
+- <a href="#music"><strong>Background music</strong></a>
 - <a href="#getting-music-into-audacity">Getting music into Audacity</a>
 
 <a id="capturing-audio"></a>
